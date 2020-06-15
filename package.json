@@ -1,0 +1,25 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "main": "mysystem.js",
+  "dependencies": {
+    "npm-package-search": "^0.1.0",
+    "zipcode": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishwarprajapati318/nodeapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishwarprajapati318/nodeapp/issues"
+  },
+  "homepage": "https://github.com/Ishwarprajapati318/nodeapp#readme",
+  "description": ""
+}
