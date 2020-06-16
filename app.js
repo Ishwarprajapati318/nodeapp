@@ -2,19 +2,18 @@ var express = require('express');
 
 var app = express();
 
-app.get('/',function(req,res){
-    res.render('index.ejs',{title: 'Hello World'});
-});
-
 app.get('/about',function(req,res){
-    res.render('layout.ejs',{title: 'About Us',body:'<h1>About Us</h1>'});
+    res.send('<h1>About Us</h1>');
+
 });
+app.get('/about/:title',function(req,res){
+    res.send('<h1>'+req.params.title+'</h1>');
+
+});
+
 app.get('/*',function(req,res){
-    res.status(404).render('error.ejs',{title:"Error"});
+    res.send('<h1>Welcome</h1>');
+
 });
-
-
-
-
-console.log('server started');
-app.listen(3000);
+console.log('Server started on localhost:3000');
+app.listen(3000); 
