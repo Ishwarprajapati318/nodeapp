@@ -1,25 +1,23 @@
 {
   "name": "nodeapp",
-  "version": "1.0.0",
-  "main": "mysystem.js",
-  "dependencies": {
-    "npm-package-search": "^0.1.0",
-    "zipcode": "^0.1.1"
-  },
-  "devDependencies": {},
+  "version": "0.0.1",
+  "description": "Express app with ejs",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ishwarprajapati318/nodeapp.git"
   },
-  "author": "",
+  "author": "IshwarKumar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ishwarprajapati318/nodeapp/issues"
   },
-  "homepage": "https://github.com/Ishwarprajapati318/nodeapp#readme",
-  "description": ""
+  "homepage": "https://github.com/Ishwarprajapati318/nodeapp#readme"
 }
